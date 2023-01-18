@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Zilla+Slab:wght@400;500;600;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Zila Slab", sans-serif;
+}
+#navbar {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.input input {
+  width: 99%;
+  height: 35px;
+  border-radius: 40px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+#icon > div > button {
+  font-size: 15px;
+  border-radius: 15px;
+  width: 80px;
+  /* border: none; */
+  padding: 5%;
+  /* background-color: rgb(130, 203, 179); */
+}
+
+.user_logo,
+.fava_logo,
+.cart_logo {
+  font-size: 25px;
+  color: rgb(90, 88, 88);
+}
+.web_logo {
+  width: 17%;
+  /* border: 1px solid red; */
+}
+
+#icon {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 350px;
+  justify-content: space-evenly;
+}
+
+#hovernav {
+  /* border: 1px solid gray; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hovernav a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#carsoalslide {
+  display: flex;
+  /* margin-top: 3%; */
+  padding: 1% 3%;
+  gap: 20px;
+}
+#carsoalslide > div {
+  border: 1px solid;
+}
+.slid1 {
+  width: 50%;
+}
+.slide2 {
+  width: 100%;
+}
+
+.slideshow-container {
+  width: 85vw;
+  height: 80%;
+  position: relative;
+  margin: auto;
+  /* margin-left: 3%; */
+}
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  padding: 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.slideshow-container img {
+  height: 500px;
+  width: 100%;
+}
+.bullet {
+  margin-left: 30%;
+  margin-top: 10px;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#slide {
+  display: flex;
+  gap: 20px;
+  padding: 1% 3%;
+}
+.stopslide {
+  height: 500px;
+  width: 100%;
+}
+
+/* end slide css */
+
+/* first div */
+#balckparent {
+  padding: 1% 3%;
+}
+
+.balckslaide {
+  width: 100%;
+}
+.shoproom {
+  display: flex;
+  gap: 20px;
+  padding: 0% 3%;
+}
+#roomsho {
+  text-align: center;
+}
+.shoproom>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+#roomsho h3 {
+  font-weight: 600;
+}
+.shoproom img {
+  width: 100%;
+}
+
+/* end first div */
+
+#fry {
+  padding: 1% 3%;
+}
+.popcon {
+  display: flex;
+  gap: 20px;
+}
+.popcon>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+.popcon img {
+  width: 100%;
+}
+
+/* end second div */
+h1{
+  text-align: center;
+}
+#Trendsdecore {
+  padding: 1% 3%;
+  gap: 20px;
+}
+.Trends {
+  display: flex;
+  gap: 20px;
+}
+.Trends div img {
+  width: 100%;
+}
+
+
+.Trends>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+/* end third  div */
+.arrival>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+#newarrival {
+  padding: 1% 3%;
+}
+
+#newarrival h3 {
+  font-weight: 600;
+}
+
+#newarrival p {
+  font-weight: 400;
+}
+.arrival {
+  display: flex;
+  gap: 20px;
+}
+.arrival div img {
+  width: 100%;
+}
+
+/* end of arrival image */
+
+.winter>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+#winteredit {
+  padding: 1% 3%;
+}
+.winter {
+  display: flex;
+  gap: 20px;
+}
+.winter div img {
+  width: 100%;
+}
+
+/* end of winter div */
+.Brands>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+#topbrands {
+  padding: 1% 3%;
+}
+.Brands {
+  display: flex;
+  gap: 20px;
+}
+.Brands div img {
+  width: 100%;
+}
+
+/* end of top brands */
+#insproduct>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+#Inspiration {
+  padding: 1% 3%;
+}
+#insproduct {
+  display: flex;
+  gap: 20px;
+}
+#insproduct div img {
+  width: 100%;
+}
+/* end of insprition  */
+.customer>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+#custospeak {
+  padding: 1% 3%;
+}
+.customer {
+  display: flex;
+  gap: 20px;
+}
+.customer div img {
+  width: 100%;
+}
+#needpro {
+  padding: 1% 3%;
+}
+.need {
+  display: flex;
+  gap: 20px;
+}
+.need div img {
+  width: 100%;
+}
+.need>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+
+/* end of recomended div */
+
+.Recommended>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+.race{
+  color: orangered;
+}
+#recompro {
+  padding: 1% 3%;
+}
+.Recommended {
+  display: flex;
+  gap: 20px;
+}
+.Recommended div img {
+  width: 100%;
+}
+
+.Recommended .product__title {
+  font-weight: 550;
+}
+
+.twelve {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.twelve h1 {
+  margin-left: 9%;
+  margin-top: 2%;
+  font-size: 15px;
+}
+.footer_top {
+  height: 450px;
+  width: 100%;
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(228, 223, 223);
+}
+.footer_one {
+  display: flex;
+  margin-left: 8%;
+  width: 84%;
+  height: 45%;
+}
+.footer_two {
+  width: 29.5%;
+  height: 180px;
+  margin-right: 5px;
+  padding: 20px;
+}
+.footer_two a {
+  text-decoration: none;
+  color: rgb(165, 163, 163);
+}
+.footer_two_one {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.fotter_bottom {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(228, 223, 223);
+}
+.card_one i {
+  font-size: 60px;
+  padding: 5px;
+}
+.card_three i {
+  font-size: 50px;
+  padding: 5px;
+}
+.card_two img {
+  width: 80%;
+  height: 50px;
+  padding: 5px;
+}
+
+.footer_last {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(228, 223, 223);
+}
+.footer_last_one {
+  display: flex;
+  margin-left: 6%;
+  padding: 5px;
+}
+.footer_last_one a {
+  text-decoration: none;
+  color: rgb(182, 175, 175);
+}
+.footer_last_one {
+  margin-right: 8%;
+  padding: 5px;
+}
+#Recently{
+  padding: 1% 3%;
+ 
+}
+.ricentview{
+  display: flex;
+ gap: 20px;
+}
+.ricentview>div:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.ricentview img {
+  width: 100%;
+}
