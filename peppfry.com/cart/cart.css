@@ -1,0 +1,229 @@
+
+
+/* navbar style code */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Zilla+Slab:wght@400;500;600;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Zila Slab", sans-serif;
+}
+#navbar {
+  /* border: 1px solid grey; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  width: 100%;
+}
+#tprod {
+  position: absolute;
+  margin-top:-15px;
+  
+}
+.input {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.input input {
+  width: 99%;
+  height: 35px;
+  border-radius: 40px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+#icon > div > button {
+  font-size: 15px;
+  border-radius: 15px;
+  width: 80px;
+  /* border: none; */
+  padding: 5%;
+  /* background-color: rgb(130, 203, 179); */
+}
+
+.user_logo,
+.fava_logo,
+.cart_logo {
+  font-size: 25px;
+  color: rgb(90, 88, 88);
+}
+.web_logo {
+  width: 17%;
+  /* border: 1px solid red; */
+}
+
+#icon {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 350px;
+  justify-content: space-evenly;
+}
+
+#hovernav {
+  /* border: 1px solid gray; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hovernav a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.card{
+  display: flex;
+  /* border: 1px solid; */
+  gap: 20px;
+  /* text-align: center; */
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.img__container img{
+  /* border: 1px solid; */
+  width: 350px;
+  height: 300px;
+}
+
+.detail_container{
+  /* border: 1px solid red; */
+  width: 50%;
+  background-color: rgb(240, 229, 229);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+}
+
+h3{
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h4{
+  font-size: 20px;
+  color: orangered;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+}
+
+button{
+  font-size: 20px;
+  padding: 2%;
+  width: 150px;
+  border-radius: 20px;
+  margin-left: 90px;
+}
+
+.decrese_btn{
+  width: 50px;
+  background-color: aqua;
+  gap: 10px;
+}
+
+.increse_btn{
+  width: 50px;
+  background-color: aqua;
+}
+
+.counttext{
+  margin-left: 100px;
+  margin-top: -35px;
+}
+
+.remove-btn{
+  margin-left: 75%;
+  margin-top: -10%;
+  border: 1px solid;
+  display: block;
+  background-color: red;
+}
+
+
+/* fotter css */
+
+.footer_top {
+  height: 450px;
+  width: 100%;
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(228, 223, 223);
+  margin-top: 2%;
+}
+.footer_one {
+  display: flex;
+  margin-left: 8%;
+  width: 84%;
+  height: 45%;
+}
+.footer_two {
+  width: 29.5%;
+  height: 180px;
+  margin-right: 5px;
+  padding: 20px;
+}
+.footer_two a {
+  text-decoration: none;
+  color: rgb(165, 163, 163);
+}
+.footer_two_one {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.fotter_bottom {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(228, 223, 223);
+}
+.card_one i {
+  font-size: 60px;
+  padding: 5px;
+}
+.card_three i {
+  font-size: 50px;
+  padding: 5px;
+}
+.card_two img {
+  width: 80%;
+  height: 50px;
+  padding: 5px;
+}
+
+.footer_last {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(228, 223, 223);
+}
+.footer_last_one {
+  display: flex;
+  margin-left: 6%;
+  padding: 5px;
+}
+.footer_last_one a {
+  text-decoration: none;
+  color: rgb(182, 175, 175);
+}
+.footer_last_one {
+  margin-right: 8%;
+  padding: 5px;
+}
+#Recently {
+  padding: 1% 3%;
+}
+.ricentview {
+  display: flex;
+  gap: 20px;
+}
+.ricentview > div:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.ricentview img {
+  width: 100%;
+}
