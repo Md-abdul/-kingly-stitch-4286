@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="center">
+      <form method="post">
+        <div class="txt_filed">
+          <input type="text" required id="email" />
+          <span></span>
+          <label for="">Email</label>
+        </div>
+        <div class="txt_filed">
+          <input type="password" required id="password" />
+          <span></span>
+          <label for="">Passwprd</label>
+        </div>
+        <div class="pass">Forgot Passwprd?</div>
+        <input type="submit" value="Login" />
+        <div class="signup_link">
+          Not a member? <a href="signup.html">Sign up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+  let userArr = JSON.parse(localStorage.getItem("account-data")) || [];
+
+  //   console.log(userArr);
+
+  let formData = document.querySelector("form");
+
+  formData.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    let user = {
+      email: document.getElementById("email").value,
+      password: document.getElementById("password").value,
+    };
+    userArr.some((x) => {
+      if (x.email == user.email) {
+        if (x.password == user.password) {
+          alert("Login Success");
+        } else {
+          alert("Wrong Password");
+        }
+      }
+      //    else {
+      //     alert("User not found");
+      //   }
+    });
+  });
+</script>

@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Zilla+Slab:wght@400;500;600;700&display=swap");
+
+
+/* nav bar part css */
+#navbar {
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  #tprod {
+    position: absolute;
+    margin-top:-15px;
+    
+  }
+  .input {
+    width: 50%;
+    /* border: 1px solid red; */
+  }
+  .input input {
+    width: 99%;
+    height: 35px;
+    border-radius: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  #icon > div > button {
+    font-size: 15px;
+    border-radius: 15px;
+    width: 80px;
+    /* border: none; */
+    padding: 5%;
+    /* background-color: rgb(130, 203, 179); */
+  }
+  
+  .user_logo,
+  .fava_logo,
+  .cart_logo {
+    font-size: 25px;
+    color: rgb(90, 88, 88);
+  }
+  .web_logo {
+    width: 70%;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+  }
+  
+  #icon {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 350px;
+    justify-content: space-evenly;
+  }
+  #hovernav {
+      /* border: 1px solid gray; */
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    #hovernav a {
+      text-decoration: none;
+      font-family: sans-serif;
+    }
+
+/* product  cart page css */
+
+body{
+    padding: 0% 3%;
+}
+#container{
+    margin-top: 2%;
+}
+
+h1{
+    text-align: center;
+}
+
+.prodcant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.prodcant div{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.prodcant div h4{
+    color: red;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.prodcant div p{
+    color: rgb(28, 197, 70);
+    font-size: 20px;
+}
+
+.prodcant div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.prodcant button{
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.prodcant button:hover{
+    color: red;
+    transform: scale(1.30);
+    transition: 0.5s;
+}
+
+.prodcant img {
+    width: 100%;
+}
+
+#smallsofa{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.smallinner img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px  13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.smallinner{
+    text-align: center;
+}
+
+#something{
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgb(216, 208, 208);
+    cursor: pointer;
+}
+
+#something select{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#pricesort{
+    font-size: 25px;
+}
+
+
+/* footer css part code */
+
+.footer_top {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(244, 245, 247);
+    border: 1px solid rgb(228, 223, 223);
+    margin-top: 2%;
+  }
+  .footer_one {
+    display: flex;
+    margin-left: 8%;
+    width: 84%;
+    height: 45%;
+  }
+  .footer_two {
+    width: 29.5%;
+    height: 180px;
+    margin-right: 5px;
+    padding: 20px;
+  }
+  .footer_two a {
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+  }
+  .footer_two_one {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .fotter_bottom {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(244, 245, 247);
+    border: 1px solid rgb(228, 223, 223);
+  }
+  .card_one i {
+    font-size: 60px;
+    padding: 5px;
+  }
+  .card_three i {
+    font-size: 50px;
+    padding: 5px;
+  }
+  .card_two img {
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+  }
+  
+  .footer_last {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(244, 245, 247);
+    border: 1px solid rgb(228, 223, 223);
+  }
+  .footer_last_one {
+    display: flex;
+    margin-left: 6%;
+    padding: 5px;
+  }
+  .footer_last_one a {
+    text-decoration: none;
+    color: rgb(182, 175, 175);
+  }
+  .footer_last_one {
+    margin-right: 8%;
+    padding: 5px;
+  }
+  #Recently {
+    padding: 1% 3%;
+  }
+  .ricentview {
+    display: flex;
+    gap: 20px;
+  }
+  .ricentview > div:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+  }
+  .ricentview img {
+    width: 100%;
+  }
